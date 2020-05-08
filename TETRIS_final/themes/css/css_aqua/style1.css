@@ -1,0 +1,282 @@
+h1{
+    color: white;
+    font-family: "Agency FB";
+    display: inline;
+}
+h2{
+    color: white;
+    font-family: "Agency FB";
+    display: block;
+}
+.statistics1{
+    margin-top: -11.4%;
+    right: 36.2%;
+    position: fixed;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+
+    padding: 0.5% 8%;
+}
+.statistics2{
+    margin-top: -11.2%;
+    right: 26.2%;
+    position: fixed;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    padding: 0.5% 4.5%;
+}
+.statistics3{
+    margin-top: -6.5%;
+    right: 31.3%;
+    position: absolute;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    padding: 0.5% 7.3%;
+}
+.statistics4 {
+    margin-top: -1.7%;
+    right: 28%;
+    position: absolute;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    padding: 0.5% 3%;
+}
+* {
+
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    animation-delay: 6s;
+
+}
+canvas {
+    display: inline;
+    margin:0;
+}
+#surface{
+    z-index: 0;
+    visibility: hidden;
+}
+#surface.active{
+
+    visibility: visible;
+
+}
+#logo21 {
+    position: fixed;
+    top: 3%;
+    left: 6%;
+    z-index: 0;
+}
+
+#fin{
+    position: fixed;
+    left: -400%;
+    top: 7%;
+    transition: 200ms linear;
+
+}
+#fin.activfin{
+    position: fixed;
+    left: 10%;
+
+}
+
+
+#PauseIcone{
+    position: fixed;
+    left: 30%;
+    top: 84%;
+
+}
+
+
+#pause1{
+    position: fixed;
+    width: 3%;
+    height: 4%;
+    right: 20%;
+    top: 5%;
+    transition: 500ms linear;
+    background: rgba(2,2,2,0.2);
+}
+
+#pause1.activpause{
+    width: 35%;
+    height: 54%;
+    right: 9%;
+    top: -68%;
+    -webkit-transform: perspective(600px) translate3d(-40%,100%,250px)  ;
+    transform: perspective(600px) translate3d(-40%,100%,250px)  ;
+
+    transition: -webkit-transform 300ms linear 300ms;
+    transition: transform 300ms linear 300ms;
+}
+
+
+
+.espace1{
+    position: absolute;
+    margin: 0% 5%;
+    width: 60%;
+    height: 80%;
+    left:15%;
+    top:15%;
+    background: rgba(2,2,2,0.5) ;
+
+}
+
+#Grille{
+
+    position: absolute;
+    left: 29.1%;
+    top: 12%;
+    animation-delay: 10s;
+    pause: 10s;
+    z-index: 3;
+}
+
+@media screen and (max-width:380px ){
+
+    #Grille{
+        position: fixed;
+        left: 33%;
+        top: 1.3%;
+        animation-delay: 10s;
+        pause: 10s;
+        background-color: rgba(2,2,2,0.2) ;
+        border: 5px solid white;
+        display: inline;
+        height: 420;
+        width: 190;
+    }
+
+
+    h1{
+        color: white;
+        font-family: "Agency FB";
+        display: inline;
+    }
+    h2{
+        color: white;
+        font-family: "Agency FB";
+        display: block;
+    }
+
+    #stat{
+        height: 20%;width: 70%; right: 42%;top: 50%; position: fixed;z-index: 9999;
+    }
+
+    .statistics1{
+        margin-top: 17%;
+        left: -29%;
+        position: fixed;
+        font-size: 13px;
+        text-align: center;
+        color: #fff;
+        border: groove 0px ;
+        background: rgba(2,2,2,0);
+        border-bottom-left-radius: 0px;
+        padding: 2% 17.5%;
+
+    }
+    .statistics2{
+        margin-top: 48%;
+        left: -39%;
+        position: fixed;
+        font-size: 13px;
+        text-align: center;
+        color: #fff;
+        border: groove 0px ;
+        background: rgba(2,2,2,0);
+        border-bottom-left-radius: 0px;
+        padding: 2% 11%;
+    }
+    .statistics3{
+        margin-top: 33%;
+        left: -36%;
+        position: fixed;
+        font-size: 13px;
+        text-align: center;
+        color: #fff;
+        border: groove 0px ;
+        background: rgba(2,2,2,0);
+        border-bottom-left-radius: 0px;
+        padding: 2% 16.4%;
+    }
+    .statistics4 {
+        margin-top: 62.1%;
+        left: -36%;
+        position: fixed;
+        font-size: 13px;
+        text-align: center;
+        color: #fff;
+        border: groove 0px ;
+        background: rgba(2,2,2,0);
+        border-bottom-left-radius: 0px;
+        padding: 2% 7.5%;
+    }
+    #iphone{
+        visibility:hidden;
+    }
+    #surface13{
+
+    }
+    #surface1{
+        position: fixed;
+        right: 1%;
+    }
+    #surface11{
+        position: fixed;
+        left: 3.5%;
+        top: -95%;
+    }
+    #Tetro_Suivant{
+        position: fixed;
+        left: 10%;
+        top: 23%;
+    }
+    #iphone_bg{
+        visibility: hidden;
+    }
+    #PauseIcone{
+        position: fixed;
+        left: -5.7%;
+        top: -3%;
+
+    }
+    #MenuPause{
+        z-index: 0;
+        position: fixed;
+        visibility: hidden;
+        width: 100%;
+        height: 1%;
+        left: 0%;
+        top: 0%;
+        transition: 700ms linear;
+        background: rgba(2,2,2,0.8);
+    }
+    #MenuPause.active{
+        width: 100%;
+        height: 100%;
+        left: 0%;
+        top: 0%;
+        visibility: visible;
+        z-index: 1;
+
+    }
+
+    #vol_plus{
+        visibility: hidden;
+    }
+    #vol_moins{
+        visibility: hidden;
+    }
+    #vol{
+        visibility: hidden;
+    }
+}

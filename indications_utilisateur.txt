@@ -1,0 +1,7 @@
+bonjour utilisateur
+ 
+ ouvrir index.html dans chrome pour acceder directement au jeux
+
+ si vous voulez jouer en mode defis, ouvrir index.php dans votre localhost apres avoir installer et activer wamp server
+
+merci!! 

@@ -1,0 +1,90 @@
+
+
+body{
+	padding-top: 10px;
+	padding-bottom: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    background: url(../../img/background.jpg) no-repeat center center fixed;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+  	background-size: cover;
+  	color:#fff;
+}
+
+a, a:visited, a:hover{
+	color:#e7e7e7;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#gameover{
+	color: #2d3c49;
+}
+
+.container{
+	max-width: 950px;
+	margin: 0 auto;
+}
+
+.content{
+	top: 25%;
+	position: fixed;
+}
+
+.card{
+	width: 100px;
+	margin: 5px 20px 0px 30px;
+}
+
+.front{
+}
+
+.back{
+	display: none;
+}
+
+.bg-brown{
+	background-color: #c69c6d;
+}
+
+#cadre{
+	top: 0%;
+	position: absolute;
+	left: 32%;
+	height: 100%;
+	width: 30%;
+}
+#cadre2{
+	top: 30%;
+	position: absolute;
+	left: 60%;
+	height: 60%;
+	width: 15%;
+}
+.score{
+	position: absolute;
+	left:85%;
+	top:80%;
+
+}
+.Button{
+	position: absolute;
+	left:70%
+}
+.but{
+	position: absolute;
+	top:10px;
+	left:30%;
+}
+.Lignes{
+	position: absolute;
+	top:0px;
+	left:0%;
+}
+.niveau{
+	position: absolute;
+	left:90%;
+	top:0px;
+}

@@ -1,0 +1,417 @@
+body{
+
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+    top: 0 px;
+    bottom: 0px;
+    animation-delay: 10s;
+    pause: 10s;
+}
+
+#canvas{
+    position: fixed ;
+
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    transform: translateX(0%) translateY(0%);
+    box-shadow: 0 0 10px 0 #999;
+}
+
+#Grille{
+    position: fixed;
+    left: 46.41%;
+    top: 9.5%;
+    animation-delay: 10s;
+    pause: 10s;
+    background-color: rgba(2,2,2,0.2) ;
+    border: 1px groove honeydew;
+    display: inline;
+    height: 420;
+    width: 190;
+}
+
+#Tetro_Suivant{
+    right: 11%;
+    top:70%;
+    background-color: transparent;
+    position: fixed;
+}
+
+#surface1{
+    left: 60.5%;top:19.22%;background-color: rgba(2,2,2,0.5)
+;position: fixed;display: inline;
+}
+
+
+#iphone{
+    position: fixed; bottom: 0px; height: 200px; left:45.28%; width: 1720px; top: 3.3%;
+
+}
+
+#stat{
+    height: 80%;width: 40%; right: 52%;top: 14%; position: fixed;
+}
+
+#iphone_bg img{
+    height: 90%;
+    width: 105%;
+}
+
+h1{
+    color: white;
+    font-family: "Agency FB";
+    display: inline;
+}
+h2{
+    color: white;
+    font-family: "Agency FB";
+    display: block;
+}
+.statistics1{
+    margin: 0;
+    right: 0%;
+    position: absolute;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    border: groove 1.8px ;
+    background: rgba(2,2,2,0.2);
+    border-bottom-left-radius: 40px;
+    padding: 2.5% 17.5%;
+    z-index: 2;
+}
+.statistics2{
+    margin-top: 24%;
+    left: 135%;
+    position: absolute;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    border: groove 1.8px ;
+    background: rgba(2,2,2,0.4);
+    border-bottom-right-radius: 40px;
+    padding: 2.5% 16.4%;
+}
+.statistics3{
+    margin: 24% 0 6% 0;
+
+    right: 0%;
+    position: absolute;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    border: groove 1.8px ;
+    background: rgba(2,2,2,0.4);
+    border-bottom-left-radius: 40px;
+    padding: 2.5% 16.4%;
+}
+.statistics4 {
+    margin-top: 0%;
+    left: 138%;
+    position: absolute;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    border: groove 1.8px ;
+    background: rgba(2,2,2,0.2);
+    border-bottom-right-radius: 40px;
+    padding: 2.5% 17.5%;
+    z-index: 2;
+}
+
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    animation-delay: 6s;
+
+}
+canvas {
+    display: inline;
+    margin:0;
+}
+#surface{
+    z-index: 0;
+    visibility: hidden;
+}
+#surface.active{
+
+    visibility: visible;
+
+}
+#logo21 {
+    position: fixed;
+    top: 3%;
+    left: 6%;
+    z-index: 0;
+}
+
+#fin{
+    position: fixed;
+    left: -400%;
+    top: 7%;
+    transition: 200ms linear;
+
+}
+#fin.activfin{
+    position: fixed;
+    left: 10%;
+
+}
+
+
+#PauseIcone{
+    position: fixed;
+    left: 49%;
+    top: 83%;
+
+}
+
+
+#pause1{
+    position: fixed;
+    visibility: hidden;
+    width: 18.8%;
+    height: 1%;
+    left: 46.4%;
+    top: 13.8%;
+    transition: 700ms linear;
+    background: rgba(2,2,2,0.8);
+}
+
+#pause1.activpause{
+    width: 18.8%;
+    height: 71.7%;
+    left: 46.4%;
+    top: 13.8%;
+    visibility: visible;
+
+}
+
+
+
+.espace1{
+    position: absolute;
+    margin: 0% 5%;
+    width: 60%;
+    height: 80%;
+    left:15%;
+    top:15%;
+    background: rgba(2,2,2,0.5) ;
+
+
+}
+
+
+.menu{
+    position: absolute;
+    margin: 0% 1.3%;
+    width: 70%;
+    height: 9%;
+    left:10%;
+    top:5%;
+    background: transparent;
+
+}
+
+.menu1{
+    position: absolute;
+    margin: 0% 1.3%;
+    width: 70%;
+    height: 9%;
+    left:10%;
+    top:22.5%;
+    background: transparent;
+
+
+}
+
+.menu2{
+    position: absolute;
+    margin: 0% 1.3%;
+    width: 70%;
+    height: 9%;
+    left:10%;
+    top:40%;
+    background: transparent;
+
+
+}
+
+.menu3{
+    position: absolute;
+    margin: 0% 1.3%;
+    width: 70%;
+    height: 9%;
+    left:10%;
+    top:57.5%;
+    background: transparent;
+
+
+}
+
+.menu4{
+    position: absolute;
+    margin: 0% 1.3%;
+    width: 70%;
+    height: 12%;
+    left:10%;
+    top:75%;
+    background: transparent;
+
+
+}
+
+
+
+@media screen and (max-width:380px ){
+    #Grille{
+        position: fixed;
+        left: 30.4%;
+        top: 0.1%;
+        animation-delay: 10s;
+        pause: 10s;
+        background-color: rgba(2,2,2,0.2) ;
+        border: 5px solid honeydew;
+        display: inline;
+        height: 420;
+        width: 190;
+    }
+
+
+    h1{
+        color: white;
+        font-family: "Agency FB";
+        display: inline;
+    }
+    h2{
+        color: white;
+        font-family: "Agency FB";
+        display: block;
+    }
+
+    #stat{
+        height: 280%;width: 70%; right: 42%;top: 14%; position: fixed;
+    }
+
+    .statistics1{
+        margin-top: 17%;
+        left: -27%;
+        position: absolute;
+        font-size: 13px;
+        text-align: center;
+        color: #fff;
+        border: groove 0px ;
+        background: rgba(2,2,2,0);
+        border-bottom-left-radius: 0px;
+        padding: 2% 17.5%;
+
+    }
+    .statistics2{
+        margin-top: 59.5%;
+        left: -9.5%;
+        position: fixed;
+        font-size: 13px;
+        text-align: center;
+        color: #fff;
+        border: groove 0px ;
+        background: rgba(2,2,2,0);
+        border-bottom-left-radius: 0px;
+        padding: 2% 11%;
+    }
+    .statistics3{
+        margin-top: 51%;
+        left: -27%;
+        position: absolute;
+        font-size: 13px;
+        text-align: center;
+        color: #fff;
+        border: groove 0px ;
+        background: rgba(2,2,2,0);
+        border-bottom-left-radius: 0px;
+        padding: 2% 16.4%;
+    }
+    .statistics4 {
+        margin-top: 82.3%;
+        left: -6%;
+        position: fixed;
+        font-size: 13px;
+        text-align: center;
+        color: #fff;
+        border: groove 0px ;
+        background: rgba(2,2,2,0);
+        border-bottom-left-radius: 0px;
+        padding: 2% 7.5%;
+    }
+    #iphone{
+        visibility:hidden;
+    }
+    #surface13{
+
+    }
+    #surface1{
+        position: fixed;
+        right: 1%;
+    }
+    #surface11{
+        position: fixed;
+        left: 3.5%;
+        top: -95%;
+    }
+    #Tetro_Suivant{
+        position: fixed;
+        left: 7%;
+        top: 13%;
+    }
+    #iphone_bg{
+        visibility: hidden;
+    }
+    #PauseIcone{
+        position: fixed;
+        left: -5.7%;
+        top: -5%;
+
+    }
+    #MenuPause{
+        z-index: 0;
+        position: fixed;
+        visibility: hidden;
+        width: 100%;
+        height: 1%;
+        left: 0%;
+        top: 0%;
+        transition: 700ms linear;
+        background: rgba(2,2,2,0.8);
+    }
+    #MenuPause.active{
+        width: 100%;
+        height: 100%;
+        left: 0%;
+        top: 0%;
+        visibility: visible;
+        z-index: 1;
+
+    }
+    #vol_plus{
+        visibility: hidden;
+    }
+    #vol_moins{
+        visibility: hidden;
+    }
+    #vol{
+        visibility: hidden;
+    }
+    #suiv_img{
+        visibility: hidden;
+    }
+    .cadre{
+        visibility: hidden;
+    }
+
+}

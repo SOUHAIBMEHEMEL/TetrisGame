@@ -1,0 +1,10 @@
+body{
+    height: 95%;
+    width: 75%;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    animation-delay: 10s;
+    pause: 10s;
+}

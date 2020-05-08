@@ -1,0 +1,2 @@
+Dans ce dossier se trouve le code source de notre application
+Pour les classe essentiels, vous pouvez les voir dans le fichier themes/js   

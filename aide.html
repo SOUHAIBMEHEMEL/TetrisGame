@@ -1,0 +1,311 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>tetris</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/queries.css">
+    <link rel="stylesheet" href="css/etline-font.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <script src="js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+<body id="top">
+    <section class="hero">
+        <section class="navigation">
+            <img src="img/logo33.jpg" style="height: 60px;top: 20px;left: 7%;position: fixed;z-index: 99;border: 1.3px rgba(255,255,255,.3) solid">
+            <header>
+                <div class="header-content">
+                    <div class="logo"><a ><img src="img/se-logo.png" alt="" style="visibility: hidden" ></a></div>
+                    <div class="header-nav">
+                        <nav>
+                            <ul class="primary-nav">
+                                <li><a href="#Fonctions">Fonctionalités</a></li>
+                                <li><a href="#themes">Thèmes</a></li>
+                                <li><a href="#modes">Modes de jeu</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="navicon">
+                        <a class="nav-toggle" href="#"><span></span></a>
+                    </div>
+                </div>
+            </header>
+        </section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="hero-content text-center">
+                        <h1>AIDE EN LIGNE</h1>
+                        <a href="#Fonctions" class="btn btn-fill btn-large btn-margin-right btn-aide">Fonctionalités</a>
+                        <a href="#themes" class="btn btn-fill btn-large btn-margin-right btn-aide">Thèmes</a>
+                        <a href="#modes" class="btn btn-fill btn-large btn-margin-right btn-aide">Modes de jeu</a>
+                        <p class="intro"> </p>
+                        <p class="intro" style="text-align: center;"> Découvrir notre jeu Tetris!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="down-arrow floating-arrow"><a href="#"><i class="fa fa-angle-down"></i></a></div>
+    </section>
+
+    <section class="features-extra section-padding aide" id="Fonctions">
+
+        <div style="position: absolute; height: 185%;width: 97%;left: 1%; top: 62.2%;border: solid black;">
+            <h1>Clique Droit</h1>
+            <p>Un clique sur le bouton droit provoque un déplacement du tetrimino d'une case vers la droite</p>
+            <img  src="img/macbook-pro.png" style="position: absolute; top: 14%; right: 3%;height: 65%;width: 40%;" >
+            <div style="background-image: url('TETRIS_final/themes/img/right_gif1.gif') ; background-repeat:no-repeat; background-size: cover;position: absolute; height: 55%;width: 30.8%;right: 7.5%; top: 17%;border: solid black;z-index: 5;" ></div>
+        </div>
+
+    </section>
+
+    <section class="features-extra section-padding aide">
+        <div style="position: absolute; height: 185%;width: 97%;left: 1%; top: 62.2%;border: solid black;">
+            <h1>Clique Gauche</h1>
+            <p>Un clique sur le bouton gauche provoque un déplacement du tetrimino d'une case vers la gauche</p>
+            <img  src="img/macbook-pro.png" style="position: absolute; top: 14%; right: 3%;height: 65%;width: 40%;" >
+            <div style="position: absolute; height: 55%;width: 30.8%;right: 7.5%; top: 17%;border: solid black;background-image: url('TETRIS_final/themes/img/left_gif1.gif') ; background-repeat:no-repeat; background-size: cover;  z-index: 5;" ></div>
+        </div>
+
+    </section>
+
+    <section class="features-extra section-padding aide">
+
+        <div style="position: absolute; height: 185%;width: 97%;left: 1%; top: 62.2%;border: solid black;">
+            <h1>Clique Bas</h1>
+            <p>Un clique sur le bouton bas provoque un déplacement du tetrimino d'une case vers le bas</p>
+            <img  src="img/macbook-pro.png" style="position: absolute; top: 14%; right: 3%;height: 65%;width: 40%;" >
+            <div style="background-image: url('TETRIS_final/themes/img/down_gif1.gif') ; background-repeat:no-repeat; background-size: cover;position: absolute; height: 55%;width: 30.8%;right: 7.5%; top: 17%;border: solid black;z-index: 5;" ></div>
+        </div>
+
+    </section>
+
+    <section class="features-extra section-padding aide">
+
+        <div style="position: absolute; height: 185%;width: 97%;left: 1%; top: 62.2%;border: solid black;">
+            <h1>Clique Haut</h1>
+            <p>Un clique sur le bouton haut provoque une rotation du tetrimino de 90° dans le sens d'une montre</p>
+            <img  src="img/macbook-pro.png" style="position: absolute; top: 14%; right: 3%;height: 65%;width: 40%;" >
+            <div style="background-image: url('TETRIS_final/themes/img/up_gif1.gif') ; background-repeat:no-repeat; background-size: cover;position: absolute; height: 55%;width: 30.8%;right: 7.5%; top: 17%;border: solid black;z-index: 5;" ></div>
+        </div>
+
+    </section>
+
+    <section class="features-extra section-padding aide">
+
+        <div style="position: absolute; height: 185%;width: 97%;left: 1%; top: 62.2%;border: solid black;">
+            <h1>Clique Sur Espace</h1>
+            <p>Un clique sur le bouton espace provoque un déplacement du tetrimino vers son emplacement approprié</p>
+            <img  src="img/macbook-pro.png" style="position: absolute; top: 14%; right: 3%;height: 65%;width: 40%;" >
+            <div style="background-image: url('TETRIS_final/themes/img/space_gif1.gif') ; background-repeat:no-repeat; background-size: cover;position: absolute; height: 55%;width: 30.8%;right: 7.5%; top: 17%;border: solid black;z-index: 5;" ></div>
+        </div>
+
+    </section>
+
+    <section class="features-extra section-padding aide">
+
+        <div style="position: absolute; height: 185%;width: 97%;left: 1%; top: 62.2%;border: solid black;">
+            <h1>Clique Sur | P |</h1>
+            <p>Un clique sur le bouton P invite à mettre le jeu en pause</p>
+            <img  src="img/macbook-pro.png" style="position: absolute; top: 14%; right: 3%;height: 65%;width: 40%;" >
+            <div style="position: absolute; height: 55%;width: 30.8%;right: 7.5%; top: 17%;border: solid black;background-repeat:no-repeat; background-size: auto;background-image: url('img/pausee.png'); z-index: 5;" ></div>
+        </div>
+
+    </section>
+
+    <section class="features-extra section-padding aide">
+
+        <div style="position: absolute; height: 185%;width: 97%;left: 1%; top: 62.2%;border: solid black;">
+            <h1>Clique Sur | J |</h1>
+            <p>Un clique sur le bouton J invite à utiliser le joker si c'est possible;le joker sert a détruire la dernière ligne<br> de la grille</p>
+            <img  src="img/macbook-pro.png" style="position: absolute; top: 14%; right: 3%;height: 65%;width: 40%;" >
+            <div style="position: absolute; height: 55%;width: 30.8%;right: 7.5%; top: 17%;border: solid black;background-repeat:no-repeat; background-size: auto;background-image: url('img/joker.png');z-index: 5;" ></div>
+        </div>
+
+    </section>
+
+    <section class="blog text-center" id="themes">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="blog-img-wrap">
+                    <h1 style="color:#FF5274">CHOIX DU THEME</h1>
+                </div>
+                </div>
+            <div style="margin-top: 20px">
+                <div class="col-md-4">
+                    <article class="blog-post">
+                        <figure>
+                            <a href="img/5.PNG" class="single_image">
+                                <div class="blog-img-wrap">
+                                    <div class="overlay">
+                                        <i class="fa fa-search"></i>
+                                    </div>
+                                    <img src="img/5.PNG" alt=""/>
+                                </div>
+                            </a>
+                            <figcaption>
+                                <h2><a href="#" class="blog-category" data-placement="top">Thème SEA</a></h2>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <article class="blog-post">
+                        <figure>
+                            <a href="img/3.PNG" class="single_image">
+                                <div class="blog-img-wrap">
+                                    <div class="overlay">
+                                        <i class="fa fa-search"></i>
+                                    </div>
+                                    <img src="img/3.PNG" alt=""/>
+                                </div>
+                            </a>
+                            <figcaption>
+                                <h2><a href="#" class="blog-category" data-placement="top">Thème enfant</a></h2>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <article class="blog-post">
+                        <figure>
+                            <a href="img/4.PNG" class="single_image">
+                                <div class="blog-img-wrap">
+                                    <div class="overlay">
+                                        <i class="fa fa-search"></i>
+                                    </div>
+                                    <img src="img/4.PNG" alt=""/>
+                                </div>
+                            </a>
+                            <figcaption>
+                                <h2><a href="#" class="blog-category" data-placement="top">Thème aquarium</a></h2>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <article class="blog-post">
+                            <figure>
+                                <a href="img/1.PNG" class="single_image">
+                                    <div class="blog-img-wrap">
+                                        <div class="overlay">
+                                            <i class="fa fa-search"></i>
+                                        </div>
+                                    <img src="img/1.PNG" alt=""/>
+                                    </div>
+                                </a>
+                            <figcaption>
+                                <h2><a href="#" class="blog-category" data-placement="top">Thème neige</a></h2>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <article class="blog-post">
+                        <figure>
+                            <a href="img/2.PNG" class="single_image">
+                                <div class="blog-img-wrap">
+                                    <div class="overlay">
+                                        <i class="fa fa-search"></i>
+                                    </div>
+                                    <img src="img/2.PNG" alt=""/>
+                                </div>
+                            </a>
+                            <figcaption>
+                            <h2><a href="#" class="blog-category"data-placement="top" >Thème espace</a></h2>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog text-center" id="modes">
+        <div class="container-fluid">
+            <div class="container">
+            <div class="blog-img-wrap">
+                <h1 style="color:#FF5274;text-align: center">CHOIX DU MODE</h1>
+            </div>
+                <div class="col-md-4" style="margin-top: 20px">
+                    <article class="blog-post">
+                        <figure>
+                            <a href="img/mode.PNG" class="single_image">
+                                <div class="blog-img-wrap" style="margin-top: 12%">
+                                    <div class="overlay">
+                                        <i class="fa fa-search"></i>
+                                    </div>
+                                    <img  src="img/mode.PNG" alt=""/>
+                                </div>
+                            </a>
+                            <figcaption>
+                                <h2><a href="#" class="blog-category"data-placement="top" >Bouton De Choix Du Mode</a></h2>
+                                <p>Pour choisir l'autre mode de jeu il faut cliquer sur ce bouton pour le sélectionner</p>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </div>
+            <div class="col-md-4" style="margin-top: 20px">
+                <article class="blog-post">
+                    <figure>
+                        <a href="img/5.PNG" class="single_image">
+                            <div class="blog-img-wrap">
+                                <div class="overlay">
+                                    <i class="fa fa-search"></i>
+                                </div>
+                                <img src="img/5.PNG" alt=""/>
+                            </div>
+                        </a>
+                        <figcaption>
+                            <h2><a href="#" class="blog-category"data-placement="top" >Mode Normale</a></h2>
+                            <p>Le mode normale ou le joueur essaye de détruire le maximum de lignes pour avoir un plus grand score</p>
+                        </figcaption>
+                    </figure>
+                </article>
+            </div>
+                <div class="col-md-4" style="margin-top: 20px">
+                    <article class="blog-post">
+                        <figure>
+                            <a href="img/Defit.PNG" class="single_image">
+                                <div class="blog-img-wrap">
+                                    <div class="overlay">
+                                        <i class="fa fa-search"></i>
+                                    </div>
+                                    <img src="img/Defit.PNG" alt=""/>
+                                </div>
+                            </a>
+                            <figcaption>
+                                <h2><a href="#" class="blog-category"data-placement="top" >Mode Défit</a></h2>
+                                <p>En plus que le joueur essaye de détruir les lignes il va se battre contre le temps ou chaque intervalle de 30'
+                                on crée une nouvelle ligne</p>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </div>
+            </div>
+            </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container inner">
+            <p class="pull-left white" style="color: snow;">© 2018. Tetris | projet 2CPI équipe 16.</p>
+        </div>
+    </footer>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="js/retina.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+</body>
+</html>
